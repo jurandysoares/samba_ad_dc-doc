@@ -1,0 +1,35 @@
+site_name: infraestrutura do Active Directory com o Samba4
+
+theme:
+  name: readthedocs
+
+
+nav:
+  - Início: index.md
+  - Interfaces: interfaces.md
+  - Atualizações: atualizacoes.md
+  - fstab.md
+  - hostname.md
+  - pacotes.md
+  - ad-dc.md
+  - smb-conf.md
+  - provisionamento.md
+  - krb5-conf.md
+  - samba-ad-dc.md
+  - resolvconf.md
+  - samba-tool/index.md
+  - Samba-tool:
+    - samba-tool/dns.md
+    
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - footnotes
+  - pymdownx.emoji
+
+plugins:
+  - search
