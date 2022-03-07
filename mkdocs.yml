@@ -1,8 +1,10 @@
 site_name: infraestrutura do Active Directory com o Samba4
 
 theme:
-  name: readthedocs
-
+  name: material
+  language: pt
+  primary:
+    palette: green
 
 nav:
   - Início: index.md
