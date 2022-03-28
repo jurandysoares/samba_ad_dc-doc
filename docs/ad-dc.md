@@ -11,15 +11,5 @@ Antes de começar a configurar o Samba para o seu domínio, primeiro desabilite 
 
 Comando:
 
-```sh
-for daemon in samba-ad-dc smbd nmbd winbind
-  do
-    systemctl stop ${daemon}.service
-    systemctl disable ${daemon}.service
-  done
-```
-
-Ou:
-
-- `systemctl disable --now samba-ad-dc smbd nmbd winbind`
+- `systemctl disable --now {samba-ad-dc,smbd,nmbd,winbind}.service`
 
