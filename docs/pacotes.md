@@ -3,12 +3,13 @@
 Para transformar seu servidor em um Controlador de Domínio Active Directory, instale o Samba e todos os pacotes necessários em sua máquina com privilégios de *root* em um console.
 
 Pacotes:
-- `samba `
-- `krb5-user `
-- `krb5-config `
-- `winbind `
-- `libpam-winbind `
-- `libnss-winbind`
+
+- [samba](https://packages.debian.org/bullseye/samba)
+- [krb5-user](https://packages.debian.org/bullseye/krb5-user)
+- [krb5-config](https://packages.debian.org/bullseye/krb5-config)
+- [winbind](https://packages.debian.org/bullseye/winbind)
+- [libpam-winbind](https://packages.debian.org/bullseye/libpam-winbind)
+- [libnss-winbind](https://packages.debian.org/bullseye/libnss-winbind)
 
 Comando:
 
