@@ -18,7 +18,6 @@ nav:
   - provisionamento.md
   - krb5-conf.md
   - samba-ad-dc.md
-  - resolvconf.md
   - samba-tool/index.md
   - Samba-tool:
     - samba-tool/dns.md
