@@ -22,5 +22,5 @@ Available subcommands:
 - `zoneinfo`  - Query for zone information.
 - `zonelist`    - Query for zones.
 
-For more help on a specific subcommand, please type: samba-tool dns <subcommand> (-h|--help)
+For more help on a specific subcommand, please type: `samba-tool dns <subcommand> (-h|--help)`
 
