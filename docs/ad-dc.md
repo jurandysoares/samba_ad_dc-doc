@@ -20,5 +20,6 @@ for daemon in samba-ad-dc smbd nmbd winbind
 ```
 
 Ou:
-- `systemctl disable --now samba-ad-dc.service smbd.service nmbd.service winbind.service`
+
+- `systemctl disable --now samba-ad-dc smbd nmbd winbind`
 
